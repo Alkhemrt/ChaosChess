@@ -221,7 +221,7 @@ func make_move(pos: Vector2i):
 			$UI/ChaosLog.text = "Stalemate!"
 		else:
 			$UI/ChaosLog.text = turn.capitalize() + " is Checkmated!"
-		return  # <-- Critical return to stop AI from continuing
+		return
 
 	if is_in_check():
 		move_check.play()
