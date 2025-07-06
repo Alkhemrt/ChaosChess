@@ -25,7 +25,7 @@ You can play it here: [alkhemrt.itch.io/chaoschess](https://alkhemrt.itch.io/cha
 - Better AI 
 - More chaos event variety
 - Configurable chaos frequency
-- ~Sounds and effects~ 
+- ~Sounds and effects~ DONE ✅
 
 
 
