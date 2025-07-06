@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cn4ssc2iv7ibb"]
+
+[ext_resource type="Texture2D" uid="uid://d4f6gopq4fvjs" path="res://assets/white.png" id="1_rtlku"]
+[ext_resource type="Script" uid="uid://ra02tpwsqqvs" path="res://scripts/chess_peice.gd" id="2_heul8"]
+[ext_resource type="Theme" uid="uid://b7pg47dphncme" path="res://assets/promote_menu.tres" id="3_w3ocs"]
+
+[node name="ChessPeice" type="Sprite2D"]
+texture = ExtResource("1_rtlku")
+centered = false
+hframes = 6
+script = ExtResource("2_heul8")
+
+[node name="Promotion" type="Control" parent="."]
+top_level = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 4.0
+offset_right = 8.0
+offset_bottom = 4.0
+theme = ExtResource("3_w3ocs")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Promotion"]
+layout_mode = 0
