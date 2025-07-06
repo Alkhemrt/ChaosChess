@@ -4,9 +4,9 @@
 
 A simple chess game built in Godot where everything starts normal... until turn 5.
 
-After the 5th turn, random **chaos events** start triggering with a 50% chance at the end of each round. These events mess with the game in unpredictable ways — swapping pieces, adding units, messing up the board, and generally ruining any serious strategy.
+After the 5th turn, random **chaos events** start triggering with a 50% chance at the end of each round. These events mess with the game in unpredictable ways, swapping pieces, messing up the board, and generally ruining any serious strategy.
 
-You can play it here: [alkhemrt.itch.io/chaoschess](https://alkhemrt.itch.io/chaoschess) (wait it doesnt work yet)
+You can play it [here](https://alkhemrt.itch.io/chaoschess)
 
 ---
 
