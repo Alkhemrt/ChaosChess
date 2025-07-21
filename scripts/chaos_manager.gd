@@ -125,7 +125,7 @@ func suicide(board) -> String:
 	var piece = candidates[randi() % candidates.size()]
 	board[piece.pos.y][piece.pos.x] = null
 	piece.queue_free()
-	return "A peice gave up!"
+	return "A piece gave up!"
 
 
 func promote_random_pawn(board) -> String:
